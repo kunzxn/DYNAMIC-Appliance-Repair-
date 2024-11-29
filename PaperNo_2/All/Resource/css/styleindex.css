@@ -1,0 +1,110 @@
+/* ========== CSS CHO MENU ========= */
+.logo{
+    justify-content: center;
+    display: flex;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 60px;
+}
+
+.menu{
+    height: 25px;
+    background-color: #A4A6A7;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.menu ul li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+/* ========== CSS CHO BANNER. TEXT ========= */
+.main-banner img{
+    width: 49%;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.info-content{
+    display: flex;
+    padding: 0 3% 0;
+}
+
+.highlighted-text{
+    color: #89C3C7;
+}
+/* ========== CSS CHO CONTENT ========= */
+.service-content{
+    display: flex;
+    padding: 10px 20% 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-item{
+    flex: 1;
+    margin: 10px 10px 10px;
+    border: 2px solid #f97306;
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+}
+
+.service-item a{
+    background-color:#0D9DA0;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+/* ========== CSS CHO ACCESSORIES ========= */
+.Accessories-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+.Accessories-section h4{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.Accessories-section div{   
+    background-color: #f0f0f0;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+    flex-basis: 22%;
+}
+
+.Accessories-section p{   
+    color: #f97306;
+    font-weight: bold;
+}
+
+.Accessories-section img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#content-logo-container img {
+    width: 15%;
+}
+
+/* ========== CSS CHO FOOTER ========= */
+.footer{
+    background-color: gray;
+    text-align: center;
+    color: #fff;
+    padding: 20px 0 20px;
+}
